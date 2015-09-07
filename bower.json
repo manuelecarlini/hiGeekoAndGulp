@@ -1,0 +1,21 @@
+{
+  "name": "general-ui-packages",
+  "version": "0.0.1",
+  "authors": [
+    "Cynthia Sanchez <csanchez@suse.com>"
+  ],
+  "description": "Configuration for general UIs",
+  "main": [
+    "build/js/main.min.js",
+    "build/css/main.min.css"
+  ],
+  "keywords": [
+    "admin"
+  ],
+  "homepage": "index.html",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "jquery": "~2.1.4"
+  }
+}

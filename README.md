@@ -15,6 +15,12 @@ We locate ourselves in the directory just created
 npm install -g bower
 ```
 We need Bower installed in our computer, and so we do.
+
+```
+npm install -g gulp
+```
+We install now Gulp, globally.
+
 ```
 gulp
 ```

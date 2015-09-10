@@ -1,6 +1,8 @@
 # Gulp for UI
 #### Gulp for creating an initial working environment for UI developers/designers
 
+##### First, remember you need to have node.js, npm istalled. Here the link: https://nodejs.org/en/
+
 All you have to do is:
 
 ```

@@ -1,57 +1,127 @@
 <!DOCTYPE>
 <html>
   <head>
-    <title>Gulp file to start a new front-end environment</title>
-    <script src="build/js/main.min.js"    type="text/javascript"></script>
+    <title>Welcome in board at SUSE!</title>
     <script src="build/js/vendor.js"      type="text/javascript"></script>
+    <script src="build/js/main.min.js"    type="text/javascript"></script>
     <link   href="build/css/main.min.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <!-- Remove all this..its just a demo -->
-    <section class="container">
-      <h2>Test with bootstrap and fontwaresome working ...ah, and our propietary less, of course ;)</h2>
-      <hr/>
-      <div class="row">
-        <div class="col-xs-2">
-          <h4>Bootstrap test:</h4>
+    <div class="container fix-in-the-center2">
+      <div class="sidebar">
+        <div class="sibedar-box home">
+          <a href="index.html">
+          <img src="/assets/images/logo.png" width="120px"></a>
         </div>
-        <div class="col-xs-10">
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-            Click to try a modal
-          </button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-2">
-          <h4>Font-Awesome test:</h4>
-        </div>
-        <div class="col-xs-10">
-          <a href="#" class="btn btn-primary">
-            <i class="fa fa-angellist"></i>
+        <div class="sibedar-box link-sidebar">
+          <a href="start.html">
+            <i class="fa fa-rocket icon-sidebar"></i>
+            <div class="text-sidebar">Start!</div>
           </a>
-          <a href="#" class="btn btn-default">
-            <i class="fa fa-github"></i>
+        </div>
+        <div class="sibedar-box link-sidebar">
+            <a href="index.html#department">
+              <i class="fa fa-users icon-sidebar"></i>
+              <div class="text-sidebar">Teams</div>
+            </a>
+        </div>
+        <div class="sibedar-box link-sidebar">
+          <a href="index.html#about">
+            <i class="fa fa-circle-o-notch icon-sidebar"></i>
+            <div class="text-sidebar">About</div>
           </a>
         </div>
       </div>
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      <section class="content-area fix-in-the-center">
+        <div class="head-home">
+        </div>
+        <a href="" id="department"></a>
+        <div class="department-home">
+          <div class="department-header">Departments</div>
+          <div class="department-list">
+
+            <div class="department-element">
+              <a href="department.html">
+                <img src="assets/images/cloud.png" class="img-department"><br>
+                cloud
+              </a>
             </div>
-            <div class="modal-body">
-              Yay! it works good :D
+
+            <div class="department-element">
+              <a href="department.html"><img src="assets/images/engineering.png" class="img-department"><br>
+              engineering</a>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+
+            <div class="department-element">
+              <img src="assets/images/l3.png" class="img-department"><br>
+              <a href="department.html">L3</a>
+            </div>
+
+            <div class="department-element">
+              <a href="department.html"><img src="assets/images/labs.png" class="img-department"><br>
+              labs</a>
+            </div>
+
+            <div class="department-element">
+              <a href="department.html"><img src="assets/images/qa.png" class="img-department"><br>
+              QA</a>
+            </div>
+
+            <div class="department-element">
+              <a href="department.html"><img src="assets/images/sle.png" class="img-department"><br>
+              sle</a>
+            </div>
+
+            <div class="department-element">
+              <a href="department.html"><img src="assets/images/sle-extensions.png" class="img-department"><br>
+              sle extention</a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Remove all until here-->
+        <div class="about-home">
+          <div class="title-home">
+            Leading Linux
+          </div>
+          <div class="text-home">
+            Established in 1992, SUSE is the original provider of the enterprise Linux distribution and the most interoperable platform for mission-critical computing.
+
+            With a portfolio centered around SUSE Linux Enterprise, we power thousands of organizations around the world across physical, virtual and cloud environments.
+
+            Through our continued commitment to the highest quality Linux support and innovative products, SUSE grew more than threefold after it was acquired by Novell in 2004. Now operating as an independent business of Micro Focus International, SUSE continues its unwavering focus on the benefits of open source and the needs of its commercial partners and customers.
+          </div>
+         </div>
+         <a href="" id="about"></a>
+        <div class="mission-home clearfix">
+          <div class="title-home2">
+            What we do
+          </div>
+          <div class="text-home">
+            Linux was originally developed as a free operating system for Intel x86–based personal computers,
+            but has since been ported to more computer hardware platforms than any other operating system. It is
+            the leading operating system on servers and other big iron systems such as mainframe computers and supercomputers,
+            but is used on only around 1.5% of desktop computers.
+        
+            Linux also runs on embedded systems, which are devices whose
+            operating system is typically built into the firmware and is highly tailored to the system; this includes
+            mobile phones, tablet computers, network routers, facility automation controls, televisions and video game consoles.
+            Android, the most widely used operating system for tablets and smartphones, is built on top of the Linux kernel.
+
+        
+            The development of Linux is one of the most prominent examples of free and open-source software collaboration.
+            The underlying source code may be used, modified, and distributed—commercially or non-commercially—by anyone under
+            licenses such as the GNU General Public License. Typically, Linux is packaged in a form known as a Linux distribution,
+            for both desktop and server use. Some popular mainstream Linux distributions include Debian, Ubuntu, Linux Mint,
+            Fedora, openSUSE, Arch Linux, and the commercial Red Hat Enterprise Linux and SUSE Linux Enterprise Server.
+            Linux distributions include the Linux kernel, supporting utilities and libraries and usually a large amount of
+            application software to fulfill the distribution's intended use.
+
+          </div>
+        </div>
+      
+      </section>
+    </div>
+    <div class="footer-ob">
+      SUSE
+    </div>
   </body>
 </html>

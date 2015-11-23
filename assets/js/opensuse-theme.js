@@ -95,16 +95,16 @@ function headerReset() {
 }
 
 // init WOW.js
-wow = new WOW(
+/*wow = new WOW(
   {
     offset: 30
   }
 )
-wow.init();
+wow.init();*/
 
 // init OWL slider
 
-$(document).ready(function() {
+/*$(document).ready(function() {
   $("#owl-slide-news").owlCarousel({
 
   navigation : true,
@@ -113,7 +113,7 @@ $(document).ready(function() {
   singleItem : true,
   navigationText : ["&#xf053;","&#xf054;"]
   });
-});
+});*/
 
 
 // tumbleweed opensuse more information
@@ -212,9 +212,9 @@ function backToMainPageOs () {
 
 //*****************init i18n
 
-var lang = new Lang('en');
+//var lang = new Lang('en');
 //languages setup - please list here all new language packs
-window.lang.dynamic('es', 'assets/js/langpack/es.json');
+/*window.lang.dynamic('es', 'assets/js/langpack/es.json');
 window.lang.dynamic('ca', 'assets/js/langpack/ca.json');
 window.lang.dynamic('de', 'assets/js/langpack/de.json');
 window.lang.dynamic('el', 'assets/js/langpack/el.json');
@@ -229,7 +229,7 @@ window.lang.dynamic('uk', 'assets/js/langpack/uk.json');
 window.lang.dynamic('zh_TW', 'assets/js/langpack/zh_TW.json');
 window.lang.dynamic('zh_CN', 'assets/js/langpack/zh_CN.json');
 window.lang.dynamic('ru', 'assets/js/langpack/ru.json');
-window.lang.dynamic('fr', 'assets/js/langpack/fr.json');
+window.lang.dynamic('fr', 'assets/js/langpack/fr.json');*/
 
 //change language on click
 $(document).on("click", ".change-language", function() {
@@ -245,13 +245,13 @@ $(document).on("click", ".change-language", function() {
 })
 
 //check if there is a langCookie in the browser
-$(document).on("ready", function(){
+/*$(document).on("ready", function(){
   if(cookieLanguage != "") {
     var selectedLanguageName = $(".languages").find("[data-language-value='"+ cookieLanguage+"']").html()
     $(".selected-language").html(selectedLanguageName);
   }
 
-});
+});*/
 //*****************
 
 
@@ -344,7 +344,7 @@ $(document).on("ready", function() {
 })
 
 // check if SVG is supported by the user's browser
-$(document).on("ready", function(){
+/*$(document).on("ready", function(){
   if (!Modernizr.svg) {
     //replace all the svg images for png
     $("img").each(function() {
@@ -355,4 +355,4 @@ $(document).on("ready", function(){
     //add a class to the background of Contribute so the background is a .jpg
     $("#contribute-to-opensuse").addClass('no-svg')
   }
-})
+})*/
